@@ -13,6 +13,6 @@ while True:
     elif guess > value:
         print("enter smaller value")
     else:
-        print("YOU WIN")
-        print("you use", guess, "out of", chance, "guesses")
+        print("YOU WIN", "your score is", ((100-(g*chance))//g))
+        print("you use", g, "out of", chance, "guesses")
         break
